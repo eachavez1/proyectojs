@@ -1,0 +1,34 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>TERRA CONSTRUCTORA</title>
+</head>
+<body>
+
+    <div class="titulo">
+        <h1>¿Quieres comprar vivienda y quieres saber en cuánto te quedaría la cuota mensual?</h1>
+        <h2>Usa nuestro Simulador de Crédito Hipotecario:</h2>
+    </div>
+
+    <label>Precio Total de la Vivienda:</label>
+    <input type="number" id="monto" placeholder="Ingrese el monto">
+
+    <label>Tasa de Interés Efectiva Anual (%):</label>
+    <input type="number" id="tasa" placeholder="Con nuestro Banco aliado sería del 16%">
+
+    <label for="plazo">Número de cuotas (meses):</label>
+    <input type="number" id="plazo" placeholder="Ingrese el plazo del préstamo">
+
+    <button onclick="calcularCuota()">Calcular Cuota</button>
+
+    <h2>Valor de la cuota mensual:</h2>
+   <p id="resultado"></p>
+
+
+<script src="./js/main.js"></script>
+
+</body>
+</html> 
